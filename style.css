@@ -610,9 +610,14 @@ nav .fas {
 }
 
 /* CSS FOR SMALL SCREEN */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 670px) {
 
     /* heading */
+
+    * {
+        margin: 0;
+        padding: 0;
+    }    
 
     h1 {
         font-size: 36px;
@@ -644,6 +649,8 @@ nav .fas {
         display: block;
         font-size: 25px;
     }
+
+
 
     nav ul{
         background: #F8F8FA;
