@@ -40,8 +40,8 @@ function opentab(tabname){
 var sidemenu = document.getElementById("sidemenu");
 
 function openmenu() {
-    sidemenu.style.right = "0";
+    sidemenu.style.left = "0";
 }
 function closemenu() {
-    sidemenu.style.right = "50px";
+    sidemenu.style.left = "-200px";
 }
