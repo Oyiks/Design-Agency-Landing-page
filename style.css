@@ -628,12 +628,10 @@ nav .fas {
         display: grid;
         grid-template-columns: 1fr; 
         flex-basis: 100%; 
-        
-         
     } 
 
     p {
-        font-size: 3vw;
+        font-size: 3.5vw;
         color: #191A15;
         font-style: normal;
         font-weight: 500;
@@ -641,16 +639,12 @@ nav .fas {
         margin-top: 15px;
     }
 
-    .first {
-        padding-bottom: 10px;
-    }
+    /
 
     nav .fas{
         display: block;
         font-size: 25px;
     }
-
-
 
     nav ul{
         background: #F8F8FA;
@@ -676,14 +670,16 @@ nav .fas {
         cursor: pointer;
     }
 
-    .view {
+    /* .view {
         width: 100%;
-    }
+    } */
 
     .demo {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        gap: 15px;
+        margin-top: 10px;
         /* align-items: center; */
         /* vertical-align: middle; */
     }
@@ -703,7 +699,8 @@ nav .fas {
         font-style: normal;
         font-weight: 700px;
         line-height: normal;
-        text-align: center;
+        /* text-align: center; */
+        margin-bottom: 20px;
     }
 
     h3 {
@@ -729,8 +726,12 @@ nav .fas {
         width: 50%;
     }
 
+    .portrait {
+        margin-top: -50px;
+    }
+
     .potrait_image {
-        margin-top: 2px;
+        margin-top: 200px;
     }
 
     h5 {
