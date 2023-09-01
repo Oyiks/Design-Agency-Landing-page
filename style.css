@@ -82,11 +82,11 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-gap: 200px;
-    /* padding-bottom: 80px; */
+    padding-bottom: 80px; 
 } 
 
 .first {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px;  */
 }
 
 h1 {
@@ -125,48 +125,12 @@ p {
     vertical-align: middle;
 }
 
-/* .view {
+ .view {
     text-align:justify;
-} */
+} 
 
 .potrait_image {
-    margin-top: 80px;
-}
-
-.amount {
-    position: absolute;
-    top: 200px;
-    right: 600px;
-}
-
-.blue_check {
-    position: absolute;
-    top: 380px;
-    right: 700px;
-}
-
-.total_income2 {
-    position: absolute;
-    top: 580px;
-    right: 630px;
-}
-
-.database {
-    position: absolute;
-    top: 200px;
-    right: 250px;
-}
-
-.credit_card {
-    position: absolute;
-    top: 480px;
-    right: 150px;
-}
-
-.messages {
-    position: absolute;
-    top: 680px;
-    right: 350px;
+    margin-top: 10px;
 }
 
 /* .image_stack {
@@ -272,6 +236,7 @@ h5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .new_paragragh {
@@ -354,7 +319,8 @@ h3 {
 
 .gradient {
     background: linear-gradient(to right, #ffd6d6, #54be96);
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
  .fa-check-circle {
@@ -396,7 +362,6 @@ h3 {
     border-radius: 10px;
     background-color:#F9FAFB;
     padding: 20px;
-
 }
 
 .closed {
@@ -610,7 +575,7 @@ nav .fas {
 }
 
 /* CSS FOR SMALL SCREEN */
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 900px) {
 
     /* heading */
 
@@ -785,11 +750,14 @@ nav .fas {
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 24px;
+        padding-bottom: 20px;
     }
    
     .features {
         display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     /* .collab {
@@ -891,7 +859,8 @@ nav .fas {
     }
 
     .gradient {
-        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     /* FOOTER */
